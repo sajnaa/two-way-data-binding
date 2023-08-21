@@ -1,0 +1,27 @@
+{
+  "env": {
+    "development": {
+      "plugins": [
+        "flow-runtime",
+        "syntax-flow",
+        "transform-flow-strip-types",
+        "transform-decorators-legacy"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "syntax-flow",
+        "transform-flow-strip-types",
+        "transform-decorators-legacy"
+      ]
+    }
+  },
+  "plugins": [
+    "add-module-exports"
+  ],
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ]
+}
